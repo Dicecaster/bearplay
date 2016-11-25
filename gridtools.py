@@ -15,7 +15,7 @@ class Rectangle(namedtuple('Rectangle', 'p1, p2')):
 def rectangle(x, y, x2, y2):
     for _x in range(x, x2+1):
         for _y in range(y, y2+1):
-            yield Point(_x, _y)#(_x, _y)
+            yield Point(_x, _y)
             
 
 def hollow_rectangle(x, y, x2, y2):
