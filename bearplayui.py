@@ -1,4 +1,3 @@
-#MASSIVE CHANGE HERE!!!!!!
 '''The bearplay ui library.'''
 import PyBearLibTerminal as bl
 from constants import *
